@@ -1,6 +1,5 @@
 # P3R Fusion Planner
 https://a0od1.github.io/P3R-fusion-planner/
-
 **مخطط دمج البيرسوناز في Persona 3 Reload — تطوير A0oD**  
 **A Persona 3 Reload fusion and skill inheritance planner — developed by A0oD**
 
@@ -18,7 +17,7 @@ A bilingual Arabic / English tool for finding fusion routes from your registered
 
 بدل البحث عن كل دمجة بشكل منفصل، حدد البيرسوناز المسجلة في الـCompendium، ثم اختر الهدف. تعرض الأداة قائمة الاستدعاءات وتكلفتها وخطوات الدمج بالترتيب. ويمكنك إضافة المهارات التي تريدها على الهدف ليبحث المخطط عن طريق ينقلها إليه.
 
-المشروع مخصص **للقصة الأساسية من Persona 3 Reload**، ويعمل داخل المتصفح من ملف `index.html` واحد، بدون تثبيت أو خادم أو مكتبات خارجية. ويمكن فتح الملف محليًا أو استضافته على GitHub Pages.
+الأداة مخصصة **للقصة الأساسية من Persona 3 Reload**، وتعمل مباشرة داخل المتصفح بدون تثبيت. هدفها تبسيط تخطيط الدمج وتوريث المهارات بناءً على ما تملكه بالفعل.
 
 ### المميزات
 
@@ -41,7 +40,7 @@ A bilingual Arabic / English tool for finding fusion routes from your registered
 
 ### الاستخدام
 
-1. افتح `index.html` في المتصفح أو افتح رابط الموقع المنشور.
+1. افتح موقع الأداة واختر اللغة المناسبة لك.
 2. حدد لفلك الحالي وبكجات DLC التي تملكها.
 3. حدد البيرسوناز **المسجلة فعلًا** في الـCompendium. يمكنك لصق الأسماء الإنجليزية، اسم بكل سطر أو مفصولة بفواصل.
 4. من **شروط الفتح**، حدد فقط الروابط والشروط التي أكملتها. مثال: `Hierophant · MAX` يفتح `Kohryu`.
@@ -77,20 +76,6 @@ A bilingual Arabic / English tool for finding fusion routes from your registered
 
 قد لا يعمل الحفظ المحلي في بعض إعدادات الخصوصية أو المتصفحات عند فتح الملفات مباشرة. استخدم **تصدير بياناتي** للاحتفاظ بنسخة، خصوصًا قبل مسح بيانات المتصفح أو الانتقال إلى جهاز أو متصفح أو رابط موقع مختلف. بيانات الملف المحلي والموقع المنشور ليست بالضرورة مشتركة.
 
-### التشغيل والنشر على GitHub Pages
-
-ملف التشغيل الوحيد المطلوب هو `index.html`. ملف `README.md` يوثق المشروع ولا يلزم لتشغيله. لا توجد خطوة بناء أو أوامر تثبيت.
-
-1. ارفع `index.html` و`README.md` إلى جذر المستودع العام.
-2. افتح **Settings → Pages**.
-3. في **Source** اختر **Deploy from a branch**.
-4. اختر الفرع **main** والمجلد **/ (root)**، ثم **Save**.
-5. بعد اكتمال النشر، افتح الرابط الظاهر في صفحة Pages.
-
-لتحديث الموقع، استبدل `index.html` بالنسخة الجديدة واحفظ التغيير في الفرع المستخدم للنشر.
-
-[دليل GitHub Pages الرسمي](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
-
 ### الإبلاغ عن المشاكل والمساهمة
 
 عند فتح Issue، أرفق الهدف، واللفل، وبكجات DLC، وشروط الفتح، وأسماء المصادر، والمهارات المطلوبة، ورسالة الخطأ أو لقطة للنتيجة. يمكنك إرفاق تصدير JSON بعد مراجعة محتواه لتسهيل إعادة التجربة.
@@ -118,7 +103,7 @@ A bilingual Arabic / English tool for finding fusion routes from your registered
 
 Select the Personas registered in your Compendium and choose a target. The planner provides the required summons, estimated costs, and ordered fusion steps. Optionally request skills and search for a route that carries them to the target.
 
-This project supports the **main story of Persona 3 Reload**. It runs entirely in the browser from a single `index.html` file, with no installation, backend, external libraries, or build step. Open it locally or host it on GitHub Pages.
+The planner supports the **main story of Persona 3 Reload** and runs directly in your browser without installation. It helps you plan fusions and skill inheritance around the Personas you actually have.
 
 ### Features
 
@@ -140,7 +125,7 @@ Persona and skill names remain in English in both interface languages. Source sk
 
 ### How to use
 
-1. Open `index.html` or the published website.
+1. Open the planner and choose your preferred language.
 2. Set your current level and enable the DLC packs you own.
 3. Select the Personas actually registered in your Compendium. Bulk entry accepts full English names separated by lines or commas.
 4. Mark only completed requirements under **Unlocks**. For example, `Hierophant · MAX` unlocks `Kohryu`.
@@ -171,20 +156,6 @@ Try calculating without requested skills first. If that works, check actual sour
 Calculations run in your browser. `localStorage` holds the Compendium, settings, and language preference. The tool includes no account system, embedded analytics, or server-side transmission of your saved data.
 
 Local saving can be restricted by privacy settings or when opening local files. Export a JSON backup before clearing browser data or moving to another device, browser, or website address. Local-file storage and hosted-site storage are not necessarily shared.
-
-### GitHub Pages deployment
-
-Only `index.html` is needed to run the tool. `README.md` documents the project. No package manager or build process is required.
-
-1. Upload both files to the root of a public repository.
-2. Open **Settings → Pages**.
-3. Select **Deploy from a branch** as the source.
-4. Choose **main** and **/ (root)**, then save.
-5. Once deployment completes, open the URL shown on the Pages settings screen.
-
-To update the site, replace `index.html` and commit the change to the publishing branch.
-
-[Official GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
 ### Issues and contributions
 
