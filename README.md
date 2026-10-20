@@ -1,4 +1,5 @@
 # P3R Fusion Planner
+https://a0od1.github.io/P3R-fusion-planner/
 
 **مخطط دمج البيرسوناز في Persona 3 Reload — تطوير A0oD**  
 **A Persona 3 Reload fusion and skill inheritance planner — developed by A0oD**
