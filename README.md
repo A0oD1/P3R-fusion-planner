@@ -1,7 +1,3 @@
-https://a0od1.github.io/P3R-fusion-planner/
-
-
-
 # P3R Fusion Planner
 
 **مخطط دمج البيرسوناز في Persona 3 Reload — تطوير A0oD**  
@@ -88,7 +84,7 @@ A bilingual Arabic / English tool for finding fusion routes from your registered
 
 ### المطور والحقوق والمصادر
 
-**تطوير الأداة: A0oD**  
+**تطوير الأداة: A0oD، بمساعدة الذكاء الاصطناعي (AI).**  
 **© 2026 A0oD. حقوق تطوير المشروع والواجهة والتعديلات الخاصة به محفوظة.**
 
 تعتمد بيانات البيرسوناز والمهارات وجداول ووصفات الدمج وقواعدها على مشروع **Megaten Fusion Tool** للمطور **aqiu384**:
@@ -169,7 +165,7 @@ Improvements and data corrections are welcome. Describe expected versus actual b
 
 ### Developer, attribution, and rights
 
-**Developed by A0oD**  
+**Developed by A0oD with assistance from artificial intelligence (AI).**  
 **Copyright © 2026 A0oD. Rights to project-specific development, interface, and modifications are reserved.**
 
 Persona data, skill data, fusion charts, recipes, and underlying game rules are based on **aqiu384's Megaten Fusion Tool**:
