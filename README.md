@@ -3,6 +3,9 @@
 **مخطط دمج البيرسوناز في Persona 3 Reload — تطوير A0oD**  
 **A Persona 3 Reload fusion and skill inheritance planner — developed by A0oD**
 
+**قاعدة البيانات وقواعد الدمج: [aqiu384 — Megaten Fusion Tool](https://github.com/aqiu384/megaten-fusion-tool).**  
+**Database and fusion rules: [aqiu384 — Megaten Fusion Tool](https://github.com/aqiu384/megaten-fusion-tool).**
+
 واجهة عربية وإنجليزية تساعدك على الوصول إلى بيرسونا محددة انطلاقًا من البيرسوناز المسجلة عندك، مع مراعاة لفلك، وبكجات DLC، وشروط الفتح، والمهارات المطلوبة.
 
 A bilingual Arabic / English tool for finding fusion routes from your registered Personas to a chosen target, with level limits, DLC packs, unlock requirements, and optional skill inheritance planning.
@@ -82,18 +85,21 @@ A bilingual Arabic / English tool for finding fusion routes from your registered
 
 اقتراحات التحسين وتصحيحات البيانات مرحب بها. اشرح السلوك المتوقع والفعلي، وأرفق مصدرًا عند اقتراح تعديل في قواعد اللعبة.
 
-### المطور والحقوق والمصادر
+### شكر وتقدير ومصدر البيانات
 
-**تطوير الأداة: A0oD، بمساعدة الذكاء الاصطناعي (AI).**  
-**© 2026 A0oD. حقوق تطوير المشروع والواجهة والتعديلات الخاصة به محفوظة.**
+**الشكر الأساسي لـ [aqiu384](https://github.com/aqiu384)، مطور مشروع [Megaten Fusion Tool](https://github.com/aqiu384/megaten-fusion-tool).**
 
-تعتمد بيانات البيرسوناز والمهارات وجداول ووصفات الدمج وقواعدها على مشروع **Megaten Fusion Tool** للمطور **aqiu384**:
+تعتمد هذه الأداة على عمله في بيانات البيرسوناز والمهارات وجداول ووصفات الدمج وقواعدها. هذا العمل هو الأساس الذي بُني عليه المخطط؛ لذلك يُنسب إليه فضل قاعدة البيانات وقواعد الدمج بوضوح.
 
 - [حاسبة Persona 3 Reload الأصلية](https://aqiu384.github.io/megaten-fusion-tool/p3r/personas)
-- [مستودع المصدر](https://github.com/aqiu384/megaten-fusion-tool)
+- [مستودع المشروع ومصدر البيانات](https://github.com/aqiu384/megaten-fusion-tool)
 - [ترخيص المصدر — Public Domain / Unlicense](https://github.com/aqiu384/megaten-fusion-tool/blob/master/LICENSE.md)
 
-نسبة تطوير هذه الأداة إلى A0oD لا تنسب إليه إنشاء بيانات المصدر أو ملكية اللعبة. حقوق المواد الخارجية تخضع لشروط أصحابها. **Persona 3 Reload** وأسماؤها وعلاماتها مملوكة لأصحاب الحقوق المعنيين، بما في ذلك ATLUS وSEGA. هذا مشروع جماهيري مستقل وغير تابع أو معتمد رسميًا منهم.
+**تطوير هذه الأداة وواجهتها: A0oD، بمساعدة الذكاء الاصطناعي (AI).**
+
+يرجى إبقاء نسبة مصدر البيانات إلى **aqiu384** عند مشاركة الأداة أو تعديلها، تقديرًا لعمله.
+
+هذا مشروع جماهيري مستقل وغير تابع رسميًا لـ ATLUS أو SEGA. أسماء اللعبة وعلاماتها تخص أصحابها.
 
 ---
 
@@ -163,15 +169,18 @@ Include your target, level, DLC packs, unlocks, registered sources, requested sk
 
 Improvements and data corrections are welcome. Describe expected versus actual behavior and include a source when proposing changes to game rules.
 
-### Developer, attribution, and rights
+### Acknowledgments and data source
 
-**Developed by A0oD with assistance from artificial intelligence (AI).**  
-**Copyright © 2026 A0oD. Rights to project-specific development, interface, and modifications are reserved.**
+**Primary thanks go to [aqiu384](https://github.com/aqiu384), the developer of [Megaten Fusion Tool](https://github.com/aqiu384/megaten-fusion-tool).**
 
-Persona data, skill data, fusion charts, recipes, and underlying game rules are based on **aqiu384's Megaten Fusion Tool**:
+This planner relies on their work on Persona and skill data, fusion charts, recipes, and fusion rules. That work is the foundation of this tool, and credit for the database and underlying fusion rules belongs to **aqiu384**.
 
 - [Original Persona 3 Reload calculator](https://aqiu384.github.io/megaten-fusion-tool/p3r/personas)
-- [Upstream repository](https://github.com/aqiu384/megaten-fusion-tool)
+- [Upstream project and data source](https://github.com/aqiu384/megaten-fusion-tool)
 - [Upstream public-domain / Unlicense terms](https://github.com/aqiu384/megaten-fusion-tool/blob/master/LICENSE.md)
 
-A0oD's project credit does not claim authorship of the upstream data or ownership of the game. Third-party material remains subject to its applicable terms. **Persona 3 Reload**, its names, and trademarks belong to their respective rights holders, including ATLUS and SEGA. This is an independent fan project and is not officially affiliated with or endorsed by them.
+**This tool and its interface were developed by A0oD with assistance from artificial intelligence (AI).**
+
+Please keep the data-source attribution to **aqiu384** when sharing or adapting the tool, in recognition of their work.
+
+This is an independent fan project, not officially affiliated with ATLUS or SEGA. Game names and trademarks belong to their respective owners.
